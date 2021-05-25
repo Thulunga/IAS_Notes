@@ -1,0 +1,110 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  padding: 1%;
+}
+div {
+  display: block;
+}
+
+.saying_block {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+section {
+  display: block;
+}
+
+
+.saying_block .saying_content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.saying_block .saying_content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.saying_block .saying_content .text_box h2 {
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 50px;
+  font-family: "Bitter", serif;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.saying_block .saying_content .text_box h3 {
+  font-size: 15px;
+  letter-spacing: 15px;
+  font-weight: normal;
+  padding: 30px 0 20px 0;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+.saying_block .saying_content .text_box p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 20px 0 20px 0;
+  opacity: 0.7;
+}
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+.saying_block.Musk {
+  background-image: url(https://alumni.iitd.ac.in/home/wp-content/uploads/2020/07/AA8GbVa.jpg);
+}
+.saying_block.Musk .saying_content {
+  background-color: rgba(183, 73, 73, 0.438);
+}
+.saying_block.buffett {
+  background-image: url(https://hwnews.in/wp-content/uploads/2020/07/Ayodhya-960x540.jpg);
+}
+.saying_block.buffett .saying_content {
+  background-color: rgba(29, 69, 106, 0.493);
+}
+.saying_block.bezos {
+  background-image: url(https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/04/29/971965-846984-833139-sachin-tendulkar.jpg);
+}
+.saying_block.bezos .saying_content {
+  /* background-color: rgba(223, 168, 0, 0.7); */
+  background-color: rgba(16, 36, 55, 0.5);
+}
+.saying_block.sandberg {
+  background-image: url(https://static.toiimg.com/thumb/msid-65426337,width-1200,height-900,resizemode-4/.jpg);
+}
+.saying_block.sandberg .saying_content {
+  background-color: rgba(210, 24, 77, 0.404);
+}
+.saying_block.Jobs {
+  background-image: url(https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/12/28/Pictures/ratan-tata-chairman-tata-trust_22a4de2e-4900-11eb-b9b6-03568302d9a5.JPG);
+}
+.saying_block.Jobs .saying_content {
+  background-color: rgba(0, 159, 154, 0.425);
+}
